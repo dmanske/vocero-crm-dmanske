@@ -1,0 +1,12 @@
+{
+  "proveedor respondió {0}: {1}": "provedor respondeu {0}: {1}",
+  "ProviderHttpError": null,
+  "Sin modelo configurado (Ajustes → IA u OPENROUTER_MODEL)": "Nenhum modelo configurado (Configurações → IA ou OPENROUTER_MODEL)",
+  "STRICT: tu respuesta anterior no fue JSON válido según el esquema. Responde ÚNICAMENTE el objeto JSON, sin explicaciones ni markdown.": null,
+  "sin JSON extraíble (raw={0})": "sem JSON extraível (raw={0})",
+  "Sin proveedor de IA: configúralo en Ajustes → IA (u OPENROUTER_API_TOKEN en el entorno)": "Sem provedor de IA: configure em Configurações → IA (ou OPENROUTER_API_TOKEN no ambiente)",
+  "La llave de IA (…{0}) está pausada: el proveedor la rechazó": "A chave de IA (…{0}) está pausada: o provedor a recusou",
+  "La llave de IA (…{0}) está pausada: la cuenta no tiene saldo": "A chave de IA (…{0}) está pausada: a conta está sem saldo",
+  "Bearer {0}": null,
+  "respuesta del proveedor sin contenido": "resposta do provedor sem conteúdo"
+}

@@ -1,0 +1,22 @@
+{
+  "Escape": null,
+  "Enter": null,
+  "Cerrar el trato": "Fechar a negociação",
+  "Trato de {0}": "Negociação de {0}",
+  "Trato": "Negociação",
+  "Cerrar el panel del trato": "Fechar o painel da negociação",
+  "Abrir conversación": "Abrir conversa",
+  "Todavía no hay conversación con este contacto.": "Ainda não há conversa com este contato.",
+  "Monto (": "Valor (",
+  "Monto del trato": "Valor da negociação",
+  "No se entiende ese importe.": "Não deu para entender esse valor.",
+  "Déjalo vacío para quitar el monto.": "Deixe vazio para remover o valor.",
+  "Se guardará como {0}": "Será salvo como {0}",
+  "Guardar": "Salvar",
+  "Cancelar": "Cancelar",
+  "Editar el monto": "Editar o valor",
+  "Sin monto — captúralo": "Sem valor — informe aqui",
+  "Prioridad": "Prioridade",
+  "Etapa": "Etapa",
+  "Mover a {0}": "Mover para {0}"
+}

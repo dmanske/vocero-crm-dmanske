@@ -1,0 +1,22 @@
+{
+  "La lista abarca hasta {0} días: se muestra del {1}.": "A lista cobre até {0} dias: mostrando {1}.",
+  "No se pudo completar la acción": "Não foi possível concluir a ação",
+  "Citas": "Agendamentos",
+  "Cargando…": "Carregando…",
+  "No se pudieron cargar las citas.": "Não foi possível carregar os agendamentos.",
+  "Reintentar": "Tentar de novo",
+  "Este rango tiene demasiadas citas para mostrarlas todas: acórtalo para verlas completas.": "Este período tem agendamentos demais para mostrar todos: diminua o período para ver a lista completa.",
+  "cita": "agendamento",
+  "citas": "agendamentos",
+  "bloqueo": "bloqueio",
+  "bloqueos": "bloqueios",
+  "Hora del negocio (": "Horário do negócio (",
+  " · Los cambios hechos en Google Calendar no se importan": " · As alterações feitas no Google Calendar não são importadas",
+  "Mostrar pruebas del Laboratorio": "Mostrar testes do Laboratório",
+  "Mostrar pruebas": "Mostrar testes",
+  "Mostrar canceladas": "Mostrar cancelados",
+  "Agendada": "Agendado",
+  "Realizada": "Realizado",
+  "No asistió": "Não compareceu",
+  "Bloqueo": "Bloqueio"
+}

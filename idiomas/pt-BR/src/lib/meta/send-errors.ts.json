@@ -1,0 +1,21 @@
+{
+  "Meta tiene el número del destinatario en un experimento y le está bloqueando los mensajes de MARKETING. No es un fallo de tu configuración: prueba con una plantilla de categoría UTILITY o con otro número.": "A Meta colocou o número do destinatário em um experimento e está bloqueando as mensagens de MARKETING para ele. Não é falha da sua configuração: tente com um modelo da categoria UTILITY ou com outro número.",
+  "Meta limitó los mensajes de marketing hacia este usuario para cuidar la calidad del ecosistema. Espera o usa una plantilla de categoría UTILITY.": "A Meta limitou as mensagens de marketing para este usuário para preservar a qualidade do ecossistema. Aguarde ou use um modelo da categoria UTILITY.",
+  "Pasaron más de 24 h desde el último mensaje del cliente: solo se puede reabrir con una plantilla aprobada.": "Já se passaram mais de 24 h desde a última mensagem do cliente: só dá para reabrir a conversa com um modelo aprovado.",
+  "Meta frenó el envío por límite de spam en tu número. Baja el ritmo de envíos y revisa la calidad del número.": "A Meta barrou o envio por limite de spam no seu número. Diminua o ritmo de envios e confira a qualidade do número.",
+  "El destinatario no puede recibir mensajes de WhatsApp (número inexistente, sin cuenta o que no acepta mensajes de empresas).": "O destinatário não pode receber mensagens de WhatsApp (número inexistente, sem conta ou que não aceita mensagens de empresas).",
+  "Tu cuenta de WhatsApp Business está bloqueada o restringida por Meta. Revísalo en el Administrador de WhatsApp.": "Sua conta do WhatsApp Business está bloqueada ou restrita pela Meta. Confira no Gerenciador do WhatsApp.",
+  "El número del destinatario no está en la lista de permitidos de tu app en modo de prueba.": "O número do destinatário não está na lista de permitidos do seu app em modo de teste.",
+  "Superaste el límite de mensajes por segundo de Meta. Reintenta en unos momentos.": "Você ultrapassou o limite de mensagens por segundo da Meta. Tente de novo em alguns instantes.",
+  "La plantilla y los parámetros enviados no coinciden (faltan o sobran variables).": "O modelo e os parâmetros enviados não batem (faltam ou sobram variáveis).",
+  "Meta no encuentra esa plantilla con ese idioma. Sincroniza las plantillas y confirma que sigue aprobada.": "A Meta não encontra esse modelo nesse idioma. Sincronize os modelos e confirme que ele continua aprovado.",
+  "El texto traducido de la plantilla supera el límite de caracteres de Meta.": "O texto traduzido do modelo passa do limite de caracteres da Meta.",
+  "El contenido de la plantilla viola las políticas de Meta.": "O conteúdo do modelo viola as políticas da Meta.",
+  "Los parámetros de la plantilla no respetan el formato que Meta espera.": "Os parâmetros do modelo não seguem o formato que a Meta espera.",
+  "La plantilla está pausada por baja calidad: Meta no la deja enviar hasta que se recupere.": "O modelo está pausado por baixa qualidade: a Meta não deixa enviá-lo até ele se recuperar.",
+  "La plantilla fue deshabilitada por calidad y ya no se puede enviar.": "O modelo foi desativado por qualidade e não pode mais ser enviado.",
+  "El número no está registrado en la Cloud API.": "O número não está registrado na Cloud API.",
+  "El número está temporalmente bloqueado por infringir las políticas de Meta.": "O número está bloqueado temporariamente por violar as políticas da Meta.",
+  "Meta rechazó el envío": "A Meta recusou o envio",
+  "{0} (Meta {1})": null
+}

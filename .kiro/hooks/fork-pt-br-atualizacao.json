@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Fork pt-BR: conferir atualização do Kevin",
+      "trigger": "SessionStart",
+      "description": "Ao iniciar a sessão, confere se o projeto original (kevinrivm/vocero-crm) tem commits novos e quantos textos faltam traduzir para pt-BR.",
+      "action": {
+        "type": "command",
+        "command": "sh idiomas/verificar-atualizacao.sh",
+        "timeout": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "v{0} · {1}": null,
+  "commit sin verificar": "commit não verificado",
+  "{0} {1}, construido del commit {2}": "{0} {1}, compilado a partir do commit {2}",
+  "{0} {1}. El commit {2} no viene del build: ": "{0} {1}. O commit {2} não vem do build: ",
+  "lo anunció la plataforma al arrancar y puede no ser el del código que ": "foi informado pela plataforma ao iniciar e pode não ser o do código que ",
+  "corre. Para verificarlo, pásalo como build arg SOURCE_COMMIT en cada despliegue.": "está rodando. Para verificar, passe-o como build arg SOURCE_COMMIT em cada deploy."
+}

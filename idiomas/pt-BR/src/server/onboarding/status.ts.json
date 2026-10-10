@@ -1,0 +1,23 @@
+{
+  "Proveedor de IA": "Provedor de IA",
+  "Llave guardada en Ajustes → IA": "Chave salva em Configurações → IA",
+  "Respaldo del entorno (OPENROUTER_*)": "Reserva do ambiente (OPENROUTER_*)",
+  "Pega la llave de tu proveedor y elige el modelo en Ajustes → IA": "Cole a chave do seu provedor e escolha o modelo em Configurações → IA",
+  "WhatsApp": "WhatsApp",
+  "Número conectado": "Número conectado",
+  "Vuelve a conectar el número con un token vigente": "Conecte o número de novo com um token válido",
+  "Vincular tu número": "Conectar seu número",
+  "Meta dejó de aceptar el token de WhatsApp: vuelve a conectar el número.": "A Meta parou de aceitar o token do WhatsApp: conecte o número de novo.",
+  "Agenda": "Agenda",
+  "La agenda no está encendida en esta instancia (variable AGENDA).": "A agenda não está ligada nesta instância (variável AGENDA).",
+  "Configuración del agente": "Configuração do agente",
+  "Nombre, instrucciones y conocimiento revisados": "Nome, instruções e conhecimento revisados",
+  "Dale un nombre y escribe sus instrucciones o carga conocimiento del negocio": "Dê um nome, escreva as instruções ou carregue o conhecimento do negócio",
+  "El conector «{0}» no existe en esta instancia: elige otro en Ajustes → Agenda.": "O conector “{0}” não existe nesta instância: escolha outro em Configurações → Agenda.",
+  "Zoom": "Zoom",
+  "Google": "Google",
+  "{0} rechazó la credencial guardada: vuelve a conectarlo en Ajustes → Agenda.": "{0} recusou a credencial salva: conecte de novo em Configurações → Agenda.",
+  "Elegiste {0} pero no está conectado: pega sus credenciales en Ajustes → Agenda.": "Você escolheu {0}, mas ele não está conectado: cole as credenciais em Configurações → Agenda.",
+  "Horarios y conector listos": "Horários e conector prontos",
+  "Guarda tus horarios y cómo se entrega la reunión en Ajustes → Agenda": "Salve seus horários e como a reunião é entregue em Configurações → Agenda"
+}

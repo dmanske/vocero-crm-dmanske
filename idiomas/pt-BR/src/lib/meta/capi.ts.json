@@ -1,0 +1,20 @@
+{
+  "Purchase": null,
+  "LeadSubmitted": null,
+  "QualifiedLead": null,
+  "InitiateCheckout": null,
+  "AddToCart": null,
+  "ViewContent": null,
+  "OrderCreated": null,
+  "OrderShipped": null,
+  "OrderDelivered": null,
+  "OrderCanceled": null,
+  "OrderReturned": null,
+  "CartAbandoned": null,
+  "RatingProvided": null,
+  "ReviewProvided": null,
+  "\"{0}\" no está en el catálogo de eventos ": "“{0}” não está no catálogo de eventos ",
+  "business_messaging de Meta ({0})": "business_messaging da Meta ({0})",
+  "Meta respondió 200 pero events_received={0} ": "A Meta respondeu 200, mas events_received={0} ",
+  "(evento descartado; fbtrace_id: {0})": "(evento descartado; fbtrace_id: {0})"
+}

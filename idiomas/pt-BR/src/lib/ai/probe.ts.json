@@ -1,0 +1,16 @@
+{
+  "La base URL no es una dirección http(s) válida": "A base URL não é um endereço http(s) válido",
+  "Bearer {0}": null,
+  "Responde solo: ok": null,
+  "El proveedor contestó, pero no con el formato de la API de OpenAI (sin `choices`)": "O provedor respondeu, mas não no formato da API da OpenAI (sem `choices`)",
+  "El proveedor no contestó a tiempo": "O provedor não respondeu a tempo",
+  "No se pudo conectar con el proveedor: revisa la base URL y la red del servidor": "Não foi possível conectar ao provedor: confira a base URL e a rede do servidor",
+  "El proveedor rechazó la llave ({0}){1}": "O provedor recusou a chave ({0}){1}",
+  "La cuenta no tiene saldo (402){0}": "A conta está sem saldo (402){0}",
+  "El proveedor no reconoce ese modelo ({0}){1}": "O provedor não reconhece esse modelo ({0}){1}",
+  "El proveedor pide esperar (429): la llave sirve, vuelve a probar en un momento{0}": "O provedor pediu para esperar (429): a chave funciona, teste de novo daqui a pouco{0}",
+  "El proveedor respondió {0}{1}": "O provedor respondeu {0}{1}",
+  "El proveedor rechazó la llave ({0})": "O provedor recusou a chave ({0})",
+  "El proveedor respondió {0} al pedir la lista de modelos": "O provedor respondeu {0} ao pedir a lista de modelos",
+  "Este proveedor no publica su lista de modelos: escribe el nombre del modelo a mano": "Este provedor não publica a lista de modelos: digite o nome do modelo manualmente"
+}

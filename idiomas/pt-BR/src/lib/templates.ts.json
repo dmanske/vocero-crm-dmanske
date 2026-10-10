@@ -1,0 +1,8 @@
+{
+  "El cuerpo admite hasta {0} variables": "O corpo aceita até {0} variáveis",
+  "Las variables deben ir numeradas {{1}}, {{2}}, … sin saltos (falta {{{0}}})": "As variáveis devem ser numeradas {{1}}, {{2}}, … sem pular números (falta {{{0}}})",
+  "Empieza con una variable: Meta suele rechazarlas. Pon un saludo antes, p. ej. «Hola {{1}}».": "Começa com uma variável: a Meta costuma recusar. Coloque uma saudação antes, por ex. “Olá {{1}}”.",
+  "Termina con una variable: Meta suele rechazarlas. Añade una frase después.": "Termina com uma variável: a Meta costuma recusar. Acrescente uma frase depois.",
+  "Hay dos variables juntas: sepáralas con texto.": "Há duas variáveis juntas: separe-as com texto.",
+  "Tiene muchas variables para lo corto del mensaje: Meta pide más texto fijo alrededor.": "Tem muitas variáveis para uma mensagem tão curta: a Meta pede mais texto fixo ao redor."
+}

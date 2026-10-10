@@ -1,0 +1,17 @@
+{
+  "{0} h {1} min": "{0} h {1} min",
+  "Escape": null,
+  "Esa hora no existe en la zona del negocio": "Esse horário não existe no fuso do negócio",
+  "No se pudo bloquear ese horario": "Não foi possível bloquear esse horário",
+  "Bloquear horario": "Bloquear horário",
+  "Para compromisos que viven fuera del CRM: ese tiempo deja de ofrecerse.": "Para compromissos fora do CRM: esse horário deixa de ser oferecido.",
+  "Día": "Dia",
+  "Hora": "Hora",
+  "Duración": "Duração",
+  "Motivo (opcional)": "Motivo (opcional)",
+  "Comida con proveedor": "Almoço com fornecedor",
+  "Hora de la zona del negocio (": "Horário no fuso do negócio (",
+  "Cancelar": "Cancelar",
+  "Bloqueando…": "Bloqueando…",
+  "Bloquear": "Bloquear"
+}

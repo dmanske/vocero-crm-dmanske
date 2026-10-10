@@ -1,0 +1,14 @@
+{
+  "Configura tu agente": "Configure seu agente",
+  "Ponle nombre y cuéntale a qué se dedica tu negocio. Si quieres ver un ejemplo primero, carga la demo desde la Bandeja y cámbiala por tus datos.": "Dê um nome e conte o que o seu negócio faz. Se quiser ver um exemplo antes, carregue a demonstração pela Caixa de entrada e troque pelos seus dados.",
+  "Ir a Agente": "Ir para Agente",
+  "Vincula tu proveedor de IA": "Conecte seu provedor de IA",
+  "Es la cuenta con la que tu agente piensa: OpenRouter o cualquier proveedor compatible con la API de OpenAI. La creas y la pagas tú; aquí solo pegas la llave y eliges el modelo.": "É a conta com que o seu agente pensa: OpenRouter ou qualquer provedor compatível com a API da OpenAI. Você cria e paga por ela; aqui só cola a chave e escolhe o modelo.",
+  "Vincular proveedor": "Conectar provedor",
+  "Vincula tu número de WhatsApp": "Conecte seu número de WhatsApp",
+  "Conecta el número donde te escriben tus clientes. El CRM registra el webhook en Meta por ti al guardar.": "Conecte o número em que seus clientes escrevem para você. Ao salvar, o CRM registra o webhook na Meta para você.",
+  "Conectar WhatsApp": "Conectar WhatsApp",
+  "Configura tu agenda": "Configure sua agenda",
+  "Define tus horarios y cómo se entrega la reunión para que tu agente pueda agendar por ti.": "Defina seus horários e como a reunião é entregue para que o seu agente possa agendar por você.",
+  "Configurar agenda": "Configurar agenda"
+}

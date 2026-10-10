@@ -1,0 +1,13 @@
+{
+  "El registro está cerrado: esta instancia ya tiene su organización. Pide acceso al propietario.": "O cadastro está fechado: esta instância já tem sua organização. Peça acesso ao proprietário.",
+  "Demasiados intentos. Espera unos minutos.": "Muitas tentativas. Aguarde alguns minutos.",
+  "No se pudo crear la cuenta.": "Não foi possível criar a conta.",
+  "Crear cuenta": "Criar conta",
+  "El primer registro crea la organización de esta instancia y queda como propietario.": "O primeiro cadastro cria a organização desta instância e fica como proprietário.",
+  "Tu nombre": "Seu nome",
+  "Correo": "E-mail",
+  "Contraseña": "Senha",
+  "Creando…": "Criando…",
+  "¿Ya tienes cuenta?": "Já tem conta?",
+  "Inicia sesión": "Entre"
+}

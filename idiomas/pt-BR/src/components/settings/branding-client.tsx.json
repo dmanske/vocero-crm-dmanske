@@ -1,0 +1,20 @@
+{
+  "No se pudo guardar": "Não foi possível salvar",
+  "Cargando…": "Carregando…",
+  "Marca del CRM": "Marca do CRM",
+  "Este CRM es tuyo: ponle el nombre de tu negocio y tu color. Se reflejan en toda la interfaz y en la pantalla de inicio de sesión.": "Este CRM é seu: coloque o nome do seu negócio e a sua cor. Eles aparecem em toda a interface e na tela de login.",
+  "Nombre": "Nome",
+  "Vocero": null,
+  "Moneda del negocio": "Moeda do negócio",
+  "Es la única que el Pipeline suma. Los montos capturados en otra moneda se muestran, pero quedan fuera del total de su columna.": "É a única que o Funil soma. Valores registrados em outra moeda aparecem, mas ficam fora do total da coluna.",
+  "Color de acento": "Cor de destaque",
+  "Personalizado": "Personalizada",
+  "Con un color personalizado, los tonos derivados (hover, fondos suaves) se calculan solos y se ajusta el contraste.": "Com uma cor personalizada, os tons derivados (hover, fundos suaves) são calculados sozinhos e o contraste é ajustado.",
+  "Vista previa de la marca": "Pré-visualização da marca",
+  "CRM · WhatsApp": "CRM · WhatsApp",
+  "Bandeja": "Caixa de entrada",
+  "Botón de ejemplo": "Botão de exemplo",
+  "Marca guardada ✓": "Marca salva ✓",
+  "Guardando…": "Salvando…",
+  "Guardar marca": "Salvar marca"
+}

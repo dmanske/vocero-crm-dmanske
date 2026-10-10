@@ -1,0 +1,9 @@
+{
+  "3.5rem repeat({0}, minmax({1}, 1fr))": null,
+  "Ver el {0} {1} en la vista de día": "Ver {0}, dia {1}, na visualização por dia",
+  "{0}, {1} a {2}": "{0}, das {1} às {2}",
+  "calc({0}% + 2px)": null,
+  "Agendó la IA": "Agendado pela IA",
+  "Sin enlace de la reunión": "Sem link da reunião",
+  "Prueba · ": "Teste · "
+}

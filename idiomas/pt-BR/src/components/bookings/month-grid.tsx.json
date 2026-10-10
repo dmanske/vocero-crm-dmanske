@@ -1,0 +1,5 @@
+{
+  "repeat({0}, minmax(6.5rem, 1fr))": null,
+  "Ver el día {0}": "Ver o dia {0}",
+  "más": "mais"
+}

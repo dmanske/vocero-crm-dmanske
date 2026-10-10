@@ -1,0 +1,18 @@
+{
+  "No se pudo crear la cuenta": "Não foi possível criar a conta",
+  "Crear cuenta de equipo": "Criar conta da equipe",
+  "Sin correos ni invitaciones: comparte tú mismo la contraseña temporal con tu compañero (se muestra UNA sola vez).": "Sem e-mails nem convites: você mesmo compartilha a senha temporária com seu colega (ela aparece UMA única vez).",
+  "Nombre": "Nome",
+  "Correo": "E-mail",
+  "Contraseña temporal": "Senha temporária",
+  "mínimo 8 caracteres": "mínimo de 8 caracteres",
+  "Generar": "Gerar",
+  "Cuenta creada ✓": "Conta criada ✓",
+  "Comparte estos datos ahora (no se volverán a mostrar):": "Compartilhe estes dados agora (eles não vão aparecer de novo):",
+  "· contraseña": "· senha",
+  "Creando…": "Criando…",
+  "Crear cuenta": "Criar conta",
+  "Miembros": "Membros",
+  "Propietario": "Proprietário",
+  "Miembro": "Membro"
+}

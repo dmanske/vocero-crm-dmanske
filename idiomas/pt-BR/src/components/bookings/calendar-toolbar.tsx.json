@@ -1,0 +1,22 @@
+{
+  "Día": "Dia",
+  "Semana": "Semana",
+  "Mes": "Mês",
+  "Lista": "Lista",
+  "día": "dia",
+  "semana": "semana",
+  "mes": "mês",
+  "rango": "período",
+  "{0} anterior": "{0} anterior",
+  "{0} siguiente": "{0} seguinte",
+  "Citas": "Agendamentos",
+  "Hoy": "Hoje",
+  "Desde": "De",
+  "al": "até",
+  "Hasta": "Até",
+  "Hasta {0} días": "Até {0} dias",
+  "{0}. Elegir otra fecha": "{0}. Escolher outra data",
+  "Cargando": "Carregando",
+  "Vista": "Visualização",
+  "Bloquear horario": "Bloquear horário"
+}

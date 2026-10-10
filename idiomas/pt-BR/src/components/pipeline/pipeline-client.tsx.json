@@ -1,0 +1,14 @@
+{
+  "Pipeline": "Funil",
+  "Gestionar etapas": "Gerenciar etapas",
+  "Sin montos capturados": "Nenhum valor informado",
+  "Total": "Total",
+  " · {0} sin monto": " · {0} sem valor",
+  "en otra moneda, fuera del total": "em outra moeda, fora do total",
+  "Enter": null,
+  "Abrir el trato de {0}": "Abrir a negociação de {0}",
+  "Actividad: {0}": "Atividade: {0}",
+  "Sin actividad": "Sem atividade",
+  "Abrir conversación": "Abrir conversa",
+  "+ monto": "+ valor"
+}
