@@ -67,6 +67,20 @@ describe("idiomas: traducir", () => {
     expect(traducir(src, "a.ts", { mar: "mar", "mar#2": "ter" })).toBe(`const meses = ["mar"];\nconst dias = ["ter"];`);
   });
 
+  it("traduce expresiones regulares completas y rechaza las inválidas", () => {
+    const src = "const pide = /(hablar|asesor)/i.test(t);";
+    expect(traducir(src, "a.ts", { "/(hablar|asesor)/i": "/(hablar|falar|asesor|atendente)/i" })).toBe(
+      "const pide = /(hablar|falar|asesor|atendente)/i.test(t);"
+    );
+    expect(() => traducir(src, "a.ts", { "/(hablar|asesor)/i": "/(falar/i" })).toThrow(/expresión/);
+  });
+
+  it('"chave:" traduce nombres de propiedad y nada más los toca', () => {
+    const src = `const dot = { Nuevo: "a", "En conversación": "b", Cliente: "c" };`;
+    const out = traducir(src, "a.ts", { "chave:Nuevo": "Novo", "chave:En conversación": "Em conversa", Nuevo: "X" });
+    expect(out).toBe(`const dot = { "Novo": "a", "Em conversa": "b", Cliente: "c" };`);
+  });
+
   it("null deja el texto como está", () => {
     const src = `if (e.key === "Escape") cerrar();`;
     expect(traducir(src, "a.ts", { Escape: null })).toBe(src);

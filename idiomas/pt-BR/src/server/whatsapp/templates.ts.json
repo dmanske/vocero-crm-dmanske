@@ -1,0 +1,18 @@
+{
+  "TemplateError": null,
+  "Conecta tu número de WhatsApp primero": "Conecte seu número de WhatsApp primeiro",
+  "Reconecta tu número antes de crear plantillas": "Reconecte seu número antes de criar modelos",
+  "Nombre de plantilla inválido": "Nome de modelo inválido",
+  "El token expiró: reconecta el número": "O token expirou: reconecte o número",
+  "Meta no está disponible ahora": "A Meta não está disponível agora",
+  "No se pudo consultar Meta": "Não foi possível consultar a Meta",
+  "Plantilla no encontrada": "Modelo não encontrado",
+  "Solo se pueden enviar plantillas aprobadas": "Só é possível enviar modelos aprovados",
+  "La plantilla requiere el valor de {{1}}": "O modelo precisa do valor de {{1}}",
+  "La plantilla requiere {0} valores: falta {{{1}}}": "O modelo precisa de {0} valores: falta {{{1}}}",
+  "Conversación no encontrada": "Conversa não encontrada",
+  "Conversación de prueba del Laboratorio: el envío real está prohibido": "Conversa de teste do Laboratório: o envio real é proibido",
+  "Sin número conectado": "Nenhum número conectado",
+  "Reconecta el número": "Reconecte o número",
+  "El contacto no tiene teléfono ni identidad de WhatsApp utilizable": "O contato não tem telefone nem identidade de WhatsApp utilizável"
+}

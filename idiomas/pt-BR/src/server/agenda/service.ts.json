@@ -1,0 +1,20 @@
+{
+  "BookingError": null,
+  "Instante inválido": "Horário inválido",
+  "Conversación no encontrada": "Conversa não encontrada",
+  "La cita necesita un contacto": "O agendamento precisa de um contato",
+  "Se necesita la conversación para validar la oferta": "É preciso informar a conversa para validar a oferta",
+  "Ese horario no se ofreció en esta conversación": "Esse horário não foi oferecido nesta conversa",
+  "Ese horario ya no está disponible": "Esse horário não está mais disponível",
+  "Ese horario acaba de ocuparse": "Esse horário acabou de ser ocupado",
+  "[agenda] avance de etapa falló: {0}": "[agenda] falha ao avançar a etapa: {0}",
+  "Ese horario ya está ocupado": "Esse horário já está ocupado",
+  "La cita está cancelada": "O agendamento está cancelado",
+  "No hay una cita activa que mover": "Não há um agendamento ativo para remarcar",
+  "Esta cita no tiene un enlace pendiente": "Este agendamento não tem um link pendente",
+  "Cita — {0}": "Agendamento — {0}",
+  "Cita": "Agendamento",
+  "[agenda] el conector {0} no pudo entregar la reunión: {1}": "[agenda] o conector {0} não conseguiu entregar a reunião: {1}",
+  "[agenda] efecto en {0} falló: {1}": "[agenda] falha ao aplicar o efeito em {0}: {1}",
+  "Cita no encontrada": "Agendamento não encontrado"
+}

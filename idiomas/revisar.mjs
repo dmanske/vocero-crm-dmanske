@@ -45,6 +45,12 @@ function archivos(dir) {
  * claves internas en minúscula y constantes quedan fuera.
  */
 function pareceTexto({ tipo, clave, atributo }) {
+  if (tipo === "regex") {
+    // Expresión que busca palabras de personas (p. ej. "hablar|asesor"): el
+    // cliente brasileño las escribe en portugués. Sin escapes ni clases.
+    const palabras = clave.replace(/\\[a-zA-Z]/g, " ").match(/\p{L}{4,}/gu) ?? [];
+    return palabras.some((p) => /[áéíóúñ]/i.test(p) || !/^(https?|www|http|data|true|false|null|json|mailto|bsuid)$/i.test(p));
+  }
   const limpio = clave.replace(/\{\d+\}/g, "").trim();
   if (!/\p{L}/u.test(limpio)) return false;
   if (tipo === "jsx") return true;
@@ -125,8 +131,13 @@ for (const ruta of archivos(path.join(RAIZ, "src"))) {
     vistos.add(t.clave);
     return true;
   });
-  // "texto#2" = só a 2.ª aparição de "texto" (ver transformar.cjs).
-  const viejas = Object.keys(tabla).filter((k) => !claves.has(k.replace(/#\d+$/, "")));
+  // "texto#2" = só a 2.ª aparição de "texto"; "chave:Nome" = nome de propriedade (ver transformar.cjs).
+  const nomesDePropriedade = new Set(
+    [...fuente.matchAll(/(?:^|[{,\s])["']?([\p{L}\p{N}_ ]+?)["']?\s*:/gmu)].map((m) => m[1].trim())
+  );
+  const viejas = Object.keys(tabla).filter((k) =>
+    k.startsWith("chave:") ? !nomesDePropriedade.has(k.slice(6)) : !claves.has(k.replace(/#\d+$/, ""))
+  );
   // Solo las plantillas tienen marcadores; en una cadena simple, {1} es texto.
   const valoresDe = new Map(textos.filter((t) => t.tipo === "plantilla").map((t) => [t.clave, t.valores]));
   const malas = Object.entries(tabla).filter(([k, v]) => {

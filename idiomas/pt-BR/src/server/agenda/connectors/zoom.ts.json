@@ -1,0 +1,10 @@
+{
+  "Basic {0}": null,
+  "No se pudo contactar a Zoom: {0}": "Não foi possível contatar o Zoom: {0}",
+  "Zoom rechazó las credenciales: {0}": "O Zoom recusou as credenciais: {0}",
+  "Zoom no devolvió un token de acceso": "O Zoom não retornou um token de acesso",
+  "Bearer {0}": null,
+  "Zoom respondió {0}: {1}": "O Zoom respondeu {0}: {1}",
+  "Zoom no devolvió la reunión creada": "O Zoom não retornou a reunião criada",
+  "No se pudo conectar con Zoom": "Não foi possível conectar com o Zoom"
+}

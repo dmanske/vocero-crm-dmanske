@@ -2,6 +2,7 @@
   "La base URL no es una dirección http(s) válida": "A base URL não é um endereço http(s) válido",
   "Bearer {0}": null,
   "Responde solo: ok": null,
+  "/model/i": null,
   "El proveedor contestó, pero no con el formato de la API de OpenAI (sin `choices`)": "O provedor respondeu, mas não no formato da API da OpenAI (sem `choices`)",
   "El proveedor no contestó a tiempo": "O provedor não respondeu a tempo",
   "No se pudo conectar con el proveedor: revisa la base URL y la red del servidor": "Não foi possível conectar ao provedor: confira a base URL e a rede do servidor",

@@ -1,0 +1,6 @@
+{
+  "Etapa no encontrada": "Etapa não encontrada",
+  "Las etapas ancla (\"ganado\" y \"perdido\") no se pueden eliminar": "As etapas fixas (“ganho” e “perdido”) não podem ser excluídas",
+  "La etapa tiene tarjetas: indica ?moveTo=<etapa destino> para reasignarlas": "A etapa tem cartões: informe ?moveTo=<etapa de destino> para movê-los",
+  "Etapa destino inválida": "Etapa de destino inválida"
+}

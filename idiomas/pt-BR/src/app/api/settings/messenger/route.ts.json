@@ -1,0 +1,9 @@
+{
+  "Solo el propietario puede conectar la página": "Só o proprietário pode conectar a página",
+  "En modo Meta hace falta el ID de la página": "No modo Meta, é preciso informar o ID da página",
+  "En modo Zernio hace falta el accountId de la cuenta conectada": "No modo Zernio, é preciso informar o accountId da conta conectada",
+  "La API key de Zernio no es válida": "A API key da Zernio não é válida",
+  "El token pertenece a la página {0}, no a {1}": "O token pertence à página {0}, não à {1}",
+  "El token de la página no es válido o no tiene permiso de mensajes (pages_messaging)": "O token da página não é válido ou não tem permissão de mensagens (pages_messaging)",
+  "No se pudo contactar la plataforma; intenta de nuevo": "Não foi possível contatar a plataforma; tente de novo"
+}

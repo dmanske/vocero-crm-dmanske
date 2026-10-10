@@ -1,0 +1,9 @@
+{
+  "Ya hay una corrida en curso": "Já existe uma execução em andamento",
+  "[lab] corrida falló:": "[lab] execução falhou:",
+  "timeout de 10 minutos superado": "tempo limite de 10 minutos excedido",
+  "Nombre: {0}": "Nome: {0}",
+  "Tono: {0}": "Tom: {0}",
+  "Instrucciones: {0}": "Instruções: {0}",
+  "Escalado: {0}": "Transferência para humano: {0}"
+}

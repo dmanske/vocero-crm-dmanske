@@ -98,6 +98,10 @@ function ocurrencias(sf) {
       });
       return;
     }
+    if (ts.isRegularExpressionLiteral(node)) {
+      lista.push({ tipo: "regex", clave: node.text, linea: linea(sf, node.getStart(sf)) });
+      return;
+    }
     if (ts.isTemplateExpression(node) && !omitir(node)) {
       lista.push({
         tipo: "plantilla",
@@ -154,6 +158,23 @@ function armarPlantilla(traduccion, expresiones, clave) {
   return salida + escaparPlantilla(traduccion.slice(desde)) + "`";
 }
 
+function validarRegex(traduccion, clave) {
+  const m = /^\/([\s\S]+)\/([dgimsuyv]*)$/.exec(traduccion);
+  let valida = false;
+  if (m) {
+    try {
+      new RegExp(m[1], m[2]);
+      valida = true;
+    } catch {
+      valida = false;
+    }
+  }
+  if (!valida) {
+    throw new Error(`[idiomas] La traducción de la expresión ${clave} no es una expresión válida: ${traduccion}`);
+  }
+  return traduccion;
+}
+
 function aplicar(texto, ediciones, inicio, fin) {
   let salida = texto.slice(inicio, fin);
   for (const e of [...ediciones].sort((a, b) => b.start - a.start)) {
@@ -177,6 +198,22 @@ function ediciones(sf, raiz, tabla, contador = new Map()) {
     return typeof t === "string" ? t : undefined;
   };
   const visitar = (node) => {
+    // Nombres de propiedad: solo con la clave explícita "chave:<nombre>", p. ej.
+    // un mapa de colores por nombre de etapa ({ Nuevo: "...", ... }).
+    if (
+      ts.isPropertyAssignment(node) &&
+      (ts.isIdentifier(node.name) || ts.isStringLiteral(node.name)) &&
+      tiene(`chave:${node.name.text}`) &&
+      typeof tabla[`chave:${node.name.text}`] === "string"
+    ) {
+      lista.push({
+        start: node.name.getStart(sf),
+        end: node.name.end,
+        texto: JSON.stringify(tabla[`chave:${node.name.text}`]),
+      });
+      visitar(node.initializer);
+      return;
+    }
     if (ts.isJsxText(node)) {
       const crudo = sf.text.slice(node.pos, node.end);
       const t = traduccionDe(normalizar(crudo));
@@ -196,6 +233,15 @@ function ediciones(sf, raiz, tabla, contador = new Map()) {
         // En un atributo JSX las comillas no admiten escapes: va como expresión.
         const texto = ts.isJsxAttribute(node.parent) ? `{${literal}}` : literal;
         lista.push({ start: node.getStart(sf), end: node.end, texto });
+      }
+      return;
+    }
+    if (ts.isRegularExpressionLiteral(node)) {
+      // Clave y traducción son la expresión completa, con barras y banderas:
+      // "/(hablar|asesor)/i" → "/(hablar|falar|asesor|atendente)/i".
+      const t = traduccionDe(node.text);
+      if (t !== undefined) {
+        lista.push({ start: node.getStart(sf), end: node.end, texto: validarRegex(t, node.text) });
       }
       return;
     }

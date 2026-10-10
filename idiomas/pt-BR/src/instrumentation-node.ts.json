@@ -1,0 +1,11 @@
+{
+  "[boot] MEDIA_DIR={0} no es escribible ({1}): los adjuntos entrantes, el logo y el icono NO se van a poder guardar. ": "[boot] MEDIA_DIR={0} não tem permissão de escrita ({1}): os anexos recebidos, o logo e o ícone NÃO vão poder ser salvos. ",
+  "En Docker: monta un volumen persistente en /data (la imagen ya usa /data/media) y arranca el contenedor como root —el default—, ": "No Docker: monte um volume persistente em /data (a imagem já usa /data/media) e inicie o contêiner como root —o padrão—, ",
+  "que el entrypoint le da el volumen al usuario de la app. Fuera de Docker: apunta MEDIA_DIR a un directorio escribible.": "porque o entrypoint passa o volume para o usuário da aplicação. Fora do Docker: aponte MEDIA_DIR para um diretório com permissão de escrita.",
+  "Interrumpida por un reinicio del servidor": "Interrompida por uma reinicialização do servidor",
+  "[boot] {0} corrida(s) del Laboratorio huérfana(s) marcada(s) como fallida(s)": "[boot] {0} execução(ões) do Laboratório sem dono marcada(s) como falha",
+  "[boot] limpieza de corridas huérfanas falló:": "[boot] a limpeza das execuções sem dono falhou:",
+  "[boot] despacho al cerebro activo → {0}": "[boot] encaminhamento ao cérebro ativo → {0}",
+  "[boot] BRAIN_DISPATCH_URL no es una URL http:// o https:// válida (sin usuario:clave): el despacho al cerebro queda INACTIVO.": "[boot] BRAIN_DISPATCH_URL não é uma URL http:// ou https:// válida (sem usuário:senha): o encaminhamento ao cérebro fica INATIVO.",
+  "[boot] BRAIN_DISPATCH_URL está definida pero falta BOT_API_KEY (mínimo 16 caracteres): el despacho al cerebro queda INACTIVO.": "[boot] BRAIN_DISPATCH_URL está definida, mas falta a BOT_API_KEY (mínimo de 16 caracteres): o encaminhamento ao cérebro fica INATIVO."
+}

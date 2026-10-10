@@ -1,0 +1,9 @@
+{
+  "No se pudo contactar a Google: {0}": "Não foi possível contatar o Google: {0}",
+  "Google rechazó el refresh token: {0}. Si tu app OAuth sigue en modo prueba, Google lo revoca a los 7 días: publícala en producción y vuelve a conectar.": "O Google recusou o refresh token: {0}. Se o seu app OAuth ainda está em modo de teste, o Google o revoga em 7 dias: publique o app em produção e conecte de novo.",
+  "Google no devolvió un token de acceso": "O Google não retornou um token de acesso",
+  "Bearer {0}": null,
+  "Google respondió {0}: {1}": "O Google respondeu {0}: {1}",
+  "Google no devolvió el evento creado": "O Google não retornou o evento criado",
+  "No se pudo conectar con Google": "Não foi possível conectar com o Google"
+}

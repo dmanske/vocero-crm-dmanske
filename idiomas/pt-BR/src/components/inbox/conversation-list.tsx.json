@@ -16,5 +16,10 @@
   "Toda etapa": "Todas as etapas",
   "Cargando…": "Carregando…",
   "Sin resultados para este filtro.": "Nenhum resultado para este filtro.",
-  "Atención humana": "Atendimento humano"
+  "Atención humana": "Atendimento humano",
+  "chave:Nuevo": "Novo",
+  "chave:En conversación": "Em conversa",
+  "chave:Interesado": "Interessado",
+  "chave:Cliente": "Cliente",
+  "chave:Perdido": "Perdido"
 }

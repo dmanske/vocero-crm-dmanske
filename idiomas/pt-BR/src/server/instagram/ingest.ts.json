@@ -1,0 +1,7 @@
+{
+  "[ig] evento para accountId desconocido ({0}): ": null,
+  "guarda la conexion en Configuracion -> Instagram para recibir mensajes": null,
+  "[ig] payload de Zernio en una instancia configurada como '{0}': descartado": null,
+  "[ig] evento para IG_ID desconocido ({0}): ": null,
+  "[ig] payload de Meta en una instancia configurada como '{0}': descartado": null
+}

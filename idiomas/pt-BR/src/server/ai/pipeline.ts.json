@@ -1,0 +1,5 @@
+{
+  "[agente] turno falló:": "[agente] turno falhou:",
+  "[agente] el motor de agenda falló: {0}": "[agente] o motor de agenda falhou: {0}",
+  "[agente] el acuse del traspaso no salió en {0}; se traspasa igual:": "[agente] o aviso de transferência não saiu em {0}; transferindo mesmo assim:"
+}

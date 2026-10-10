@@ -1,0 +1,8 @@
+{
+  "En modo Zernio hace falta el accountId de la cuenta conectada": "No modo Zernio, é preciso informar o accountId da conta conectada",
+  "Bearer {0}": null,
+  "No se pudo contactar la plataforma; intenta de nuevo": "Não foi possível contatar a plataforma; tente de novo",
+  "El token de Instagram no es válido o no tiene permiso de mensajes": "O token do Instagram não é válido ou não tem permissão de mensagens",
+  "La API key de Zernio no es válida": "A API key da Zernio não é válida",
+  "El IG_ID del token es {0}, no {1}": "O IG_ID do token é {0}, não {1}"
+}

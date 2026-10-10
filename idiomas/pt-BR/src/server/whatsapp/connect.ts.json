@@ -1,0 +1,17 @@
+{
+  "Meta no devolvió el número: verifica que el Phone Number ID sea correcto": "A Meta não retornou o número: confira se o Phone Number ID está correto",
+  "El token no es válido o expiró. Verifica que corresponde a este número (modo directo: token de usuario del sistema; modo agencia: token entregado por tu backend).": "O token não é válido ou expirou. Confira se ele corresponde a este número (modo direto: token de usuário do sistema; modo agência: token fornecido pelo seu backend).",
+  "Meta no está disponible en este momento; intenta de nuevo": "A Meta não está disponível no momento; tente de novo",
+  "[connect] la WABA {0} enruta sus webhooks a un override ({1}): se respeta y no se registra el del número": null,
+  "No se pudo suscribir la app a la cuenta de WhatsApp": "Não foi possível inscrever a app na conta do WhatsApp",
+  "Meta no aceptó la dirección del webhook": "A Meta não aceitou o endereço do webhook",
+  "Meta aceptó el webhook pero no lo confirma en el número. Vuelve a intentarlo en unos minutos.": "A Meta aceitou o webhook, mas não o confirma no número. Tente de novo em alguns minutos.",
+  "No se pudo confirmar el webhook en Meta": "Não foi possível confirmar o webhook na Meta",
+  "[connect] no se pudo quitar el webhook del número al desconectar:": null,
+  "sin respuesta": null,
+  "[connect] no se pudo consultar subscribed_apps; se suscribe igual (best-effort):": null,
+  "{0}: el token no es válido o expiró.": "{0}: o token não é válido ou expirou.",
+  "{0}: Meta no está disponible en este momento; intenta de nuevo.": "{0}: a Meta não está disponível no momento; tente de novo.",
+  "host desconocido": null,
+  "URL no válida": null
+}

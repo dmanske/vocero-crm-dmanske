@@ -1,0 +1,6 @@
+{
+  "Fechas inválidas: usa el formato AAAA-MM-DD": "Datas inválidas: use o formato AAAA-MM-DD",
+  "PeriodError": null,
+  "La fecha inicial va antes que la final": "A data inicial deve vir antes da final",
+  "El rango máximo es de {0} días": "O período máximo é de {0} dias"
+}
