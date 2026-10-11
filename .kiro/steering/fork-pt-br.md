@@ -4,9 +4,20 @@ inclusion: always
 
 # Fork pt-BR do Vocero CRM
 
-Este repositório (`dmanske/vocero-crm-dmanske`) é um fork de `kevinrivm/vocero-crm`
-(remoto `upstream`). Objetivo: o sistema inteiro em português do Brasil **sem
-mexer no código do original**, para que as atualizações do Kevin entrem sem conflito.
+O fork pt-BR (`dmanske/vocero-crm-dmanske`) vem de `kevinrivm/vocero-crm`.
+Objetivo: o sistema inteiro em português do Brasil **sem mexer no código do
+original**, para que as atualizações do Kevin entrem sem conflito.
+
+Corrente de atualização (o remoto `upstream` é sempre o nível de cima):
+
+```
+kevinrivm/vocero-crm          ← original, em espanhol
+  → dmanske/vocero-crm-dmanske  ← só a tradução pt-BR (upstream = Kevin)
+    → dmanske/vocero-salao      ← pt-BR + pacote salão (upstream = fork pt-BR)
+```
+
+Projetos derivados (como o `vocero-salao`) têm um guia próprio em
+`.kiro/steering/` com o que é deles; este arquivo vale para todos.
 
 ## Como a tradução funciona
 
@@ -25,13 +36,16 @@ mexer no código do original**, para que as atualizações do Kevin entrem sem c
   `.kiro/hooks/fork-pt-br-atualizacao.json` no início de cada sessão).
 - Testes do tradutor: `tests/unit/idiomas-transformar.test.ts`.
 
-## Quando o Kevin atualizar
+## Quando chegar atualização
 
 O hook de início de sessão avisa quando `upstream/main` tem commits novos.
-Nesse caso, **avise o usuário e só siga com o ok dele**:
+Nesse caso, **avise o usuário e só siga com o ok dele**. Num projeto derivado,
+as mudanças do Kevin só chegam depois de entrarem no fork pt-BR: atualize o
+fork pt-BR primeiro.
 
 1. `git switch main && git fetch upstream && git merge upstream/main`
-   (conflito esperado no máximo em `next.config.ts`: manter as duas linhas de `comIdiomas`).
+   (no fork pt-BR, conflito esperado no máximo em `next.config.ts`: manter as
+   duas linhas de `comIdiomas`; num projeto derivado, também nos arquivos que ele alterou).
 2. Trazer para a branch de trabalho, se houver (`git merge main`).
 3. `node idiomas/revisar.mjs` → lista o que falta (`+`), o que ficou velho
    (`-`, o Kevin mudou ou apagou o texto) e erros.
@@ -42,6 +56,10 @@ Nesse caso, **avise o usuário e só siga com o ok dele**:
 7. Conferir na tela as telas que o Kevin mudou. Commit e push só com o ok do usuário.
 
 `node idiomas/revisar.mjs --archivo <trecho>` mostra um arquivo; `--detalle` mostra tudo com a linha.
+
+Código novo escrito direto em português (o de um projeto derivado) não precisa
+de dicionário: liste a pasta em `idiomas/<idioma>/.ignorar` (um prefixo de
+caminho por linha, `#` para comentário) e o revisor deixa de cobrá-la.
 
 ## Regras de tradução
 

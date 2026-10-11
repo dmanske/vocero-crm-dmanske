@@ -28,8 +28,22 @@ const idioma = opcion("--idioma") ?? "pt-BR";
 const filtro = opcion("--archivo");
 const detalle = args.includes("--detalle");
 
-/** Carpetas que nunca ve una persona: mocks de desarrollo. */
-const EXCLUIDAS = ["src/app/api/dev/", "src/server/dev/"];
+/**
+ * Carpetas que no se revisan: los mocks de desarrollo (nunca los ve una
+ * persona) y lo que liste `idiomas/<idioma>/.ignorar` — p. ej. el código propio
+ * de un proyecto derivado, escrito directo en el idioma (un prefijo por línea).
+ */
+const rutaIgnorar = path.join(RAIZ, "idiomas", idioma, ".ignorar");
+const EXCLUIDAS = [
+  "src/app/api/dev/",
+  "src/server/dev/",
+  ...(existsSync(rutaIgnorar)
+    ? readFileSync(rutaIgnorar, "utf8")
+        .split("\n")
+        .map((l) => l.replace(/#.*/, "").trim())
+        .filter(Boolean)
+    : []),
+];
 
 function archivos(dir) {
   return readdirSync(dir).flatMap((nombre) => {
